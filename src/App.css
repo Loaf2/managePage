@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+span, button, h1, p, img, input {
+    outline: none;
+}
+
+body {
+    font-family: 'Be Vietnam Pro';
+    overflow-x: hidden;
+}
+
+.headerTags > span {
+    cursor: pointer;
+    transition: opacity 100ms ease-in-out;
+}
+
+.headerTags > span:hover {
+    opacity: 70%;
+}
+
+.footerTags > span {
+    transition: color 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.footerTags > span:hover {
+    color: hsl(12, 88%, 59%);
+}
